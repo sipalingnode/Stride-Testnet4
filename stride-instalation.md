@@ -173,13 +173,7 @@ Pastikan saldo faucet udah masuk, bisa cek menggunakan command ini
 gaiad query bank balances $GAIA_WALLET_ADDRESS
 ```
 
-**Cek status node apakah udah false. kalo masih true jangan dulu create karna akan gagal**
-
-```
-gaiad status 2>&1 | jq .SyncInfo
-```
-
-Lanjut buat validator kalo udah false
+Lanjut buat validator bang
 
 ```
 gaiad tx staking create-validator \
