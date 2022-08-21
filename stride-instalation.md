@@ -211,18 +211,6 @@ gaiad tx staking edit-validator \
   --from=$WALLET
   ```
 
-## Delegate Stake Gaia
-
-```
-gaiad tx staking delegate $GAIA_VALOPER_ADDRESS 5000000uatom --from=$WALLET --chain-id=$GAIA_CHAIN_ID --gas=auto
-```
-
-## Withdraw All Reward (ini digunakan kalo udah stake 3 harian baru ada rewardnya)
-
-```
-gaiad tx distribution withdraw-all-rewards --from=$WALLET --chain-id=$GAIA_CHAIN_ID --gas=auto
-```
-
 ## Aktifkan Firewall Gaia
 
 ```
