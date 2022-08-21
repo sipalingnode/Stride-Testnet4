@@ -83,13 +83,7 @@ Pastikan saldo faucet udah masuk, bisa cek menggunakan command ini
 strided query bank balances $STRIDE_WALLET_ADDRESS
 ```
 
-**Cek status node apakah udah false. kalo masih true jangan dulu create karna akan gagal**
-
-```
-strided status 2>&1 | jq .SyncInfo
-```
-
-Lanjut buat validator kalo udah false
+Lanjut buat validator
 
 ```
 strided tx staking create-validator \
